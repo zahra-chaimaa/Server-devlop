@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="913be381-8659-4aae-ada3-1e392cc5fbb2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/controller/mainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/NNretrieval/similarity/local/interfaces/NormalizedStringDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/NNretrieval/similarity/local/interfaces/NormalizedStringSimilarity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/model/HSQLDBserver1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/model/caseTemporaire.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/model/casebase.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/demo/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/db/HSQLDBserver1.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/db/HSQLDBserver1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/db/caseTemporaire.csv" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/db/caseTemporaire.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/db/casebase.csv" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/db/casebase.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/casebase/CachedLinealCaseBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/casebase/CachedLinealCaseBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/casebase/IDIndexedLinealCaseBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/casebase/IDIndexedLinealCaseBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/casebase/LinealCaseBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/casebase/LinealCaseBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/casebase/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/casebase/package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/cbraplications/StandardCBRApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/cbraplications/StandardCBRApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/cbraplications/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/cbraplications/package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/cbrcore/Attribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/cbrcore/Attribute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/cbrcore/CBRCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/cbrcore/CBRCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/cbrcore/CBRCaseBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/cbrcore/CBRCaseBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/cbrcore/CBRQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/cbrcore/CBRQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/cbrcore/CaseBaseFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/cbrcore/CaseBaseFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/cbrcore/CaseComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/cbrcore/CaseComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/cbrcore/Connector.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/cbrcore/Connector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/cbrcore/Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/cbrcore/Filter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/cbrcore/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/cbrcore/package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/connector/DataBaseConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/connector/DataBaseConnector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/connector/PlainTextConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/connector/PlainTextConnector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/connector/TypeAdaptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/connector/TypeAdaptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/connector/databaseutils/EnumUserType.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/connector/databaseutils/EnumUserType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/connector/databaseutils/GenericUserType.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/connector/databaseutils/GenericUserType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/connector/databaseutils/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/connector/databaseutils/package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/connector/ontologyutils/OntologyInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/connector/ontologyutils/OntologyInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/connector/ontologyutils/OntologyMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/connector/ontologyutils/OntologyMapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/connector/ontologyutils/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/connector/ontologyutils/package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/connector/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/connector/package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/connector/plaintextutils/PlainTextTypeConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/connector/plaintextutils/PlainTextTypeConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/connector/plaintextutils/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/connector/plaintextutils/package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/connector/xmlutils/CaseComponentSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/connector/xmlutils/CaseComponentSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/connector/xmlutils/QuerySerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/connector/xmlutils/QuerySerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/connector/xmlutils/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/connector/xmlutils/package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/datatypes/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/datatypes/Text.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/datatypes/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/datatypes/package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/exception/AttributeAccessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/exception/AttributeAccessException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/exception/ExecutionException.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/exception/ExecutionException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/exception/InitializingException.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/exception/InitializingException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/exception/NoApplicableFilterPredicateException.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/exception/NoApplicableFilterPredicateException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/exception/NoApplicableSimilarityFunctionException.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/exception/NoApplicableSimilarityFunctionException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/exception/OntologyAccessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/exception/OntologyAccessException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/exception/UnImplementedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/exception/UnImplementedException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/exception/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/exception/package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/gui/editors/BooleanEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/gui/editors/BooleanEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/gui/editors/DateEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/gui/editors/DateEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/gui/editors/DoubleEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/gui/editors/DoubleEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/gui/editors/EnumEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/gui/editors/EnumEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/gui/editors/FileEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/gui/editors/FileEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/gui/editors/IntegerEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/gui/editors/IntegerEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/gui/editors/ParameterEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/gui/editors/ParameterEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/gui/editors/StringEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/gui/editors/StringEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/gui/editors/TextEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/gui/editors/TextEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/gui/editors/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/gui/editors/package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/gui/formFilling/ObtainQueryWithFormMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/gui/formFilling/ObtainQueryWithFormMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/gui/formFilling/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/gui/formFilling/package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/gui/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/gui/package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/gui/utils/LayoutUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/gui/utils/LayoutUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/gui/utils/WindowUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/gui/utils/WindowUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/gui/utils/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/gui/utils/package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/postcycle/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/postcycle/package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retain/StoreCasesMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retain/StoreCasesMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retain/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retain/package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/DiverseByMedianRetrieval/ExpertClerkMedianScoring.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/DiverseByMedianRetrieval/ExpertClerkMedianScoring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/DiverseByMedianRetrieval/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/DiverseByMedianRetrieval/package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/FilterBasedRetrieval/FilterBasedRetrievalMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/FilterBasedRetrieval/FilterBasedRetrievalMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/FilterBasedRetrieval/FilterConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/FilterBasedRetrieval/FilterConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/FilterBasedRetrieval/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/FilterBasedRetrieval/package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/FilterBasedRetrieval/predicates/Equal.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/FilterBasedRetrieval/predicates/Equal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/FilterBasedRetrieval/predicates/EqualTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/FilterBasedRetrieval/predicates/EqualTo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/FilterBasedRetrieval/predicates/FilterPredicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/FilterBasedRetrieval/predicates/FilterPredicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/FilterBasedRetrieval/predicates/NotEqual.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/FilterBasedRetrieval/predicates/NotEqual.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/FilterBasedRetrieval/predicates/NotEqualTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/FilterBasedRetrieval/predicates/NotEqualTo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/FilterBasedRetrieval/predicates/QueryLess.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/FilterBasedRetrieval/predicates/QueryLess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/FilterBasedRetrieval/predicates/QueryLessOrEqual.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/FilterBasedRetrieval/predicates/QueryLessOrEqual.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/FilterBasedRetrieval/predicates/QueryMore.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/FilterBasedRetrieval/predicates/QueryMore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/FilterBasedRetrieval/predicates/QueryMoreOrEqual.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/FilterBasedRetrieval/predicates/QueryMoreOrEqual.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/FilterBasedRetrieval/predicates/Threshold.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/FilterBasedRetrieval/predicates/Threshold.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/FilterBasedRetrieval/predicates/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/FilterBasedRetrieval/predicates/package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/NNretrieval/NNConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/NNretrieval/NNConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/NNretrieval/NNScoringMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/NNretrieval/NNScoringMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/NNretrieval/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/NNretrieval/package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/NNretrieval/similarity/GlobalSimilarityFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/NNretrieval/similarity/GlobalSimilarityFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/NNretrieval/similarity/InContextLocalSimilarityFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/NNretrieval/similarity/InContextLocalSimilarityFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/NNretrieval/similarity/LocalSimilarityFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/NNretrieval/similarity/LocalSimilarityFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/NNretrieval/similarity/StandardGlobalSimilarityFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/NNretrieval/similarity/StandardGlobalSimilarityFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/NNretrieval/similarity/global/Average.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/NNretrieval/similarity/global/Average.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/NNretrieval/similarity/global/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/NNretrieval/similarity/global/package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/NNretrieval/similarity/local/EnumCyclicDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/NNretrieval/similarity/local/EnumCyclicDistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/NNretrieval/similarity/local/EnumDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/NNretrieval/similarity/local/EnumDistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/NNretrieval/similarity/local/Equal.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/NNretrieval/similarity/local/Equal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/NNretrieval/similarity/local/EqualsStringIgnoreCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/NNretrieval/similarity/local/EqualsStringIgnoreCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/NNretrieval/similarity/local/Interval.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/NNretrieval/similarity/local/Interval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/NNretrieval/similarity/local/MaxString.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/NNretrieval/similarity/local/MaxString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/NNretrieval/similarity/local/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/NNretrieval/similarity/local/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/NNretrieval/similarity/local/Threshold.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/NNretrieval/similarity/local/Threshold.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/NNretrieval/similarity/local/interfaces/MetricStringDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/NNretrieval/similarity/local/interfaces/MetricStringDistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/NNretrieval/similarity/local/interfaces/NormalizedStringDistance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/NNretrieval/similarity/local/interfaces/NormalizedStringSimilarity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/NNretrieval/similarity/local/interfaces/StringDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/NNretrieval/similarity/local/interfaces/StringDistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/NNretrieval/similarity/local/interfaces/StringSimilarity.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/NNretrieval/similarity/local/interfaces/StringSimilarity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/NNretrieval/similarity/local/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/NNretrieval/similarity/local/package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/NNretrieval/similarity/local/recommenders/InrecaLessIsBetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/NNretrieval/similarity/local/recommenders/InrecaLessIsBetter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/NNretrieval/similarity/local/recommenders/InrecaMoreIsBetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/NNretrieval/similarity/local/recommenders/InrecaMoreIsBetter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/NNretrieval/similarity/local/recommenders/McSherryLessIsBetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/NNretrieval/similarity/local/recommenders/McSherryLessIsBetter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/NNretrieval/similarity/local/recommenders/McSherryMoreIsBetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/NNretrieval/similarity/local/recommenders/McSherryMoreIsBetter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/NNretrieval/similarity/local/recommenders/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/NNretrieval/similarity/local/recommenders/package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/NNretrieval/similarity/local/similaritry/Cosine.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/NNretrieval/similarity/local/similaritry/Cosine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/NNretrieval/similarity/local/similaritry/Euclidienne.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/NNretrieval/similarity/local/similaritry/Euclidienne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/NNretrieval/similarity/local/similaritry/JaroWinkler.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/NNretrieval/similarity/local/similaritry/JaroWinkler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/NNretrieval/similarity/local/similaritry/Levenshtein.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/NNretrieval/similarity/local/similaritry/Levenshtein.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/NNretrieval/similarity/local/similaritry/LongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/NNretrieval/similarity/local/similaritry/LongestCommonSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/NNretrieval/similarity/local/similaritry/MetricLCS.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/NNretrieval/similarity/local/similaritry/MetricLCS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/NNretrieval/similarity/local/similaritry/ShingleBased.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/NNretrieval/similarity/local/similaritry/ShingleBased.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/NNretrieval/similarity/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/NNretrieval/similarity/package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/RetrievalResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/RetrievalResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/selection/SelectCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/selection/SelectCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/selection/compromiseDriven/CDRSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/selection/compromiseDriven/CDRSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/selection/compromiseDriven/CompromiseDrivenSelection.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/selection/compromiseDriven/CompromiseDrivenSelection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/selection/compromiseDriven/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/selection/compromiseDriven/package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/selection/diversity/BoundedGreedySelection.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/selection/diversity/BoundedGreedySelection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/selection/diversity/BoundedRandomSelection.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/selection/diversity/BoundedRandomSelection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/selection/diversity/GreedySelection.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/selection/diversity/GreedySelection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/selection/diversity/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/selection/diversity/package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/method/retrieve/selection/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/method/retrieve/selection/package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/server/CaseDescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/model/CaseDescription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/server/caseDescription.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/model/caseDescription.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/server/caseSolution.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/model/caseSolution.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/server/casesSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/model/casesSolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/server/databaseconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/model/databaseconfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/server/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/model/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/server/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/model/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/server/test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/model/test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/util/AttributeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/util/AttributeUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/util/CopyUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/util/CopyUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/util/FileIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/util/FileIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/util/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/util/Launcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/util/ProgressController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/util/ProgressController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/util/ProgressListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/util/ProgressListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/demo/demo/jcolibri/util/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/demo/infection/jcolibri/util/package.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="28OaDvhd6nK9ZwgBYpqK7rBlQSq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Oussama\Documents\GitHub\demo-Serveur1\demo" />
+      <recent name="C:\Users\Oussama\Documents\GitHub\demo-Serveur1\demo\src\main\java\com\demo\infection\model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Oussama\Documents\GitHub\demo-Serveur1\demo\src\main\java\com\demo\infection\model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DemoApplication">
+    <configuration name="HSQLDBserver1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.infection.db.HSQLDBserver1" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.infection.db.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.infection.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HSQLDBserver1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="913be381-8659-4aae-ada3-1e392cc5fbb2" name="Changes" comment="" />
+      <created>1651089977266</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651089977266</updated>
+      <workItem from="1651089980785" duration="280000" />
+      <workItem from="1651090277612" duration="69000" />
+      <workItem from="1651090355140" duration="31000" />
+      <workItem from="1651090547904" duration="15000" />
+      <workItem from="1651090578341" duration="378000" />
+      <workItem from="1651110520085" duration="1019000" />
+      <workItem from="1651120342305" duration="759000" />
+      <workItem from="1651271694109" duration="910000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
