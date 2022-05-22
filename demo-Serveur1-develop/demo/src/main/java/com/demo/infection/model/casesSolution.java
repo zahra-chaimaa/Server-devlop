@@ -2,8 +2,9 @@ package com.demo.infection.model;
 
 
 
-import com.demo.infection.jcolibri.cbrcore.CaseComponent;
+
 import com.demo.infection.jcolibri.cbrcore.Attribute;
+import com.demo.infection.jcolibri.cbrcore.CaseComponent;
 
 public class casesSolution implements CaseComponent {
 

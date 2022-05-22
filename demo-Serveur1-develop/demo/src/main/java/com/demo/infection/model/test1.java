@@ -1,11 +1,14 @@
 package com.demo.infection.model;
 
 
+
 import com.demo.infection.jcolibri.casebase.LinealCaseBase;
 import com.demo.infection.jcolibri.cbraplications.StandardCBRApplication;
 import com.demo.infection.jcolibri.cbrcore.*;
 import com.demo.infection.jcolibri.connector.DataBaseConnector;
 import com.demo.infection.jcolibri.exception.ExecutionException;
+
+
 import com.demo.infection.jcolibri.method.retrieve.NNretrieval.NNConfig;
 import com.demo.infection.jcolibri.method.retrieve.NNretrieval.NNScoringMethod;
 import com.demo.infection.jcolibri.method.retrieve.NNretrieval.similarity.LocalSimilarityFunction;
@@ -13,7 +16,7 @@ import com.demo.infection.jcolibri.method.retrieve.NNretrieval.similarity.global
 import com.demo.infection.jcolibri.method.retrieve.NNretrieval.similarity.local.Equal;
 import com.demo.infection.jcolibri.method.retrieve.NNretrieval.similarity.local.similaritry.Euclidienne;
 import com.demo.infection.jcolibri.method.retrieve.RetrievalResult;
-
+import com.demo.infection.jcolibri.method.retrieve.selection.SelectCases;
 import com.demo.infection.jcolibri.util.FileIO;
 import org.springframework.stereotype.Component;
 
@@ -22,9 +25,9 @@ import java.util.Collection;
 
 
 ///https://gaia.fdi.ucm.es/research/colibri/jcolibri/doc/apidocs/src-html/es/ucm/fdi/gaia/jcolibri/test/test1/Test1.html
-@Component
+
    public class test1 implements StandardCBRApplication {
-       //HSQLDBserver1 con = new HSQLDBserver1();
+
 
        Connector _connector;
        CBRCaseBase _caseBase;
@@ -38,12 +41,11 @@ import java.util.Collection;
 
 // Create a data base connector
            try {
-               HSQLDBserver1.init();
-               HSQLDBserver1 BD=new HSQLDBserver1();
+
                _connector = new DataBaseConnector();
 //            // Init the ddbb connector with the config file
 //           _connector.initFromXMLfile(jcolibri.util.FileIO.findFile("main/java/com/ouss/reanimation/model/databaseconfig.xml"));
-               _connector.initFromXMLfile(FileIO.findFile("C:/demo-Serveur1-develop/demo-Serveur1-develop/demo/src/main/java/com/demo/infection/model/databaseconfig.xml"));
+               _connector.initFromXMLfile(FileIO.findFile("C:/demo-Serveur1-Devlop/demo-Serveur1-develop/demo/src/main/java/com/demo/infection/model/databaseconfig.xml"));
                // Create a Lineal case base for in-memory organization
                _caseBase = (CBRCaseBase) new LinealCaseBase();
            } catch (Exception e) {
@@ -170,11 +172,13 @@ import java.util.Collection;
            // Execute NN
            Collection<RetrievalResult> eval = NNScoringMethod.evaluateSimilarity(_caseBase.getCases(), cbrQuery, config);
            System.out.println(eval);
+           evaltogather = eval;
+           Collection<CBRCase> selectedcases = SelectCases.selectTopK(evaltogather,k);
 
 
        }
 
-       @Override
+
        public void postCycle() throws ExecutionException {
 
        }

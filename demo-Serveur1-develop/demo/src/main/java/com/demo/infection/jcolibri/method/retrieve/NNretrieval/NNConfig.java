@@ -9,10 +9,20 @@
 package com.demo.infection.jcolibri.method.retrieve.NNretrieval;
 
 
-import com.demo.infection.jcolibri.method.retrieve.NNretrieval.similarity.local.Equal;
+
+
+
+
+//import com.demo.infection.jcolibri.cbrcore.Attribute;
+//import com.demo.infection.jcolibri.method.retrieve.NNretrieval.similarity.GlobalSimilarityFunction;
+//import com.demo.infection.jcolibri.method.retrieve.NNretrieval.similarity.LocalSimilarityFunction;
+//import com.demo.infection.jcolibri.method.retrieve.NNretrieval.similarity.local.Equal;
+
+
 import com.demo.infection.jcolibri.cbrcore.Attribute;
 import com.demo.infection.jcolibri.method.retrieve.NNretrieval.similarity.GlobalSimilarityFunction;
 import com.demo.infection.jcolibri.method.retrieve.NNretrieval.similarity.LocalSimilarityFunction;
+import com.demo.infection.jcolibri.method.retrieve.NNretrieval.similarity.local.Equal;
 
 /**
  * This class stores the configuration for the NN retrieval method.
@@ -100,7 +110,7 @@ public class NNConfig{
 	if(d!= null)
 			return d;
 		else
-			return new Double(1);
+			return Double.valueOf(1);
 	}
 
 

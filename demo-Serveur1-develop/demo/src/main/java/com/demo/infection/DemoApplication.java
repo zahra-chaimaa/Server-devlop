@@ -1,7 +1,6 @@
 package com.demo.infection;
 
 
-import com.demo.infection.model.HSQLDBserver1;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

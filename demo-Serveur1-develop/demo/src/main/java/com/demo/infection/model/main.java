@@ -5,6 +5,7 @@ import com.demo.infection.jcolibri.cbrcore.CaseComponent;
 import com.demo.infection.jcolibri.exception.ExecutionException;
 import com.demo.infection.jcolibri.util.FileIO;
 
+
 import java.io.IOException;
 import java.net.URL;
 
@@ -12,14 +13,10 @@ public class main {
     public static void main(String[] args) throws ExecutionException {
         System.out.println("This is the main function is package com.demo.second");
         System.out.println("######################");
-        URL file = FileIO.findFile("C:/demo-Serveur1-develop/demo-Serveur1-develop/demo/src/main/java/com/demo/infection/model/databaseconfig.xml");
+       URL file = FileIO.findFile("C:/demo-Serveur1-Devlop/demo-Serveur1-develop/demo/src/main/java/com/demo/infection/model/databaseconfig.xml");
         System.out.println("**"+ file);
 
-        try {
-            file.openStream();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+
 
 
 

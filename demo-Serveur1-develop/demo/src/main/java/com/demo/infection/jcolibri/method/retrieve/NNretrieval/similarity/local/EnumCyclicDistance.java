@@ -2,9 +2,12 @@ package com.demo.infection.jcolibri.method.retrieve.NNretrieval.similarity.local
 
 
 
+//import com.demo.infection.jcolibri.exception.NoApplicableSimilarityFunctionException;
+//import com.demo.infection.jcolibri.method.retrieve.NNretrieval.similarity.LocalSimilarityFunction;
+
+
 import com.demo.infection.jcolibri.exception.NoApplicableSimilarityFunctionException;
 import com.demo.infection.jcolibri.method.retrieve.NNretrieval.similarity.LocalSimilarityFunction;
-
 
 /**
  * This function computes the similarity between two enum values as their cyclic

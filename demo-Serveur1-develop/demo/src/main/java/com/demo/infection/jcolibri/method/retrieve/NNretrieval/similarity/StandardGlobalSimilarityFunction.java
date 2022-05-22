@@ -8,11 +8,18 @@
  */
 package com.demo.infection.jcolibri.method.retrieve.NNretrieval.similarity;
 
-import com.demo.infection.jcolibri.method.retrieve.NNretrieval.NNConfig;
+//import com.demo.infection.jcolibri.method.retrieve.NNretrieval.NNConfig;
+//import com.demo.infection.jcolibri.cbrcore.Attribute;
+//import com.demo.infection.jcolibri.cbrcore.CBRCase;
+//import com.demo.infection.jcolibri.cbrcore.CBRQuery;
+//import com.demo.infection.jcolibri.cbrcore.CaseComponent;
+//import com.demo.infection.jcolibri.util.AttributeUtils;
+
 import com.demo.infection.jcolibri.cbrcore.Attribute;
 import com.demo.infection.jcolibri.cbrcore.CBRCase;
 import com.demo.infection.jcolibri.cbrcore.CBRQuery;
 import com.demo.infection.jcolibri.cbrcore.CaseComponent;
+import com.demo.infection.jcolibri.method.retrieve.NNretrieval.NNConfig;
 import com.demo.infection.jcolibri.util.AttributeUtils;
 
 /**
@@ -39,7 +46,7 @@ public abstract class StandardGlobalSimilarityFunction implements GlobalSimilari
      * @see GlobalSimilarityFunction#compute(CaseComponent, CaseComponent, CBRCase, CBRQuery, NNConfig)
      */
     public double compute(CaseComponent componentOfCase, CaseComponent componentOfQuery, CBRCase _case,
-	    CBRQuery _query, NNConfig numSimConfig)
+						  CBRQuery _query, NNConfig numSimConfig)
     {
 	GlobalSimilarityFunction gsf = null;
 	LocalSimilarityFunction lsf = null;

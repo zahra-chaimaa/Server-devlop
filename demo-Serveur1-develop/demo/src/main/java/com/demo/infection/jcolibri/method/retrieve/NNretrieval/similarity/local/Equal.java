@@ -1,8 +1,12 @@
 package com.demo.infection.jcolibri.method.retrieve.NNretrieval.similarity.local;
 
+
+
+
+
+
 import com.demo.infection.jcolibri.exception.NoApplicableSimilarityFunctionException;
 import com.demo.infection.jcolibri.method.retrieve.NNretrieval.similarity.LocalSimilarityFunction;
-
 
 /**
  * This function returns 1 if both individuals are equal, otherwise returns 0
