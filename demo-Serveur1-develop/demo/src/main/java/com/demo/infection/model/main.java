@@ -24,30 +24,32 @@ public class main {
 
           CaseDescription queryDesc=new CaseDescription();
             // queryDesc.setAccommodation(TravelDescription.AccommodationTypes.ThreeStars);
-            queryDesc.setId(1);
-            queryDesc.setNip("20/05/2022");
-            queryDesc.setJ("oui");
-        queryDesc.setSa("oui");
-        queryDesc.setT(50);
-        queryDesc.setHt("oui");
-        queryDesc.setGb(50);
-        queryDesc.setCrp(55);
-        queryDesc.setPct(55);
-        queryDesc.setRx("oui");
-        queryDesc.setSec("oui");
-        queryDesc.setTou("oui");
-        queryDesc.setDys("oui");
-        queryDesc.setAus("oui");
-        queryDesc.setDes("oui");
-        queryDesc.setSu("oui");
-        queryDesc.setPyu("oui");
-        queryDesc.setBrm("oui");
-        queryDesc.setDsp("oui");
-        queryDesc.setLu("oui");
-        queryDesc.setFr("oui");
-        queryDesc.setKt("oui");
-        queryDesc.setAbl("oui");
-        queryDesc.setInfkt("oui");
+        queryDesc.setId(101);
+        queryDesc.setNip("true");
+        queryDesc.setJ("21/03/2022");
+        queryDesc.setSa("true");
+        queryDesc.setT(39.7);
+        queryDesc.setHt("false");
+        queryDesc.setAus("true");
+        queryDesc.setDes("true");
+        queryDesc.setKt("false");
+        queryDesc.setAbl("true");
+        queryDesc.setInfkt("true");
+        queryDesc.setSec("true");
+        queryDesc.setMsec("true");
+        queryDesc.setTou("true");
+        queryDesc.setDys("true");
+        queryDesc.setSu("false");
+        queryDesc.setPyu("false");
+        queryDesc.setBrm("false");
+        queryDesc.setDsp("true");
+        queryDesc.setFr("false");
+        queryDesc.setLu("false");
+        queryDesc.setGb(23);
+        queryDesc.setCrp(138);
+        queryDesc.setPct(54);
+        queryDesc.setRx("true");
+
         test1 test = new test1();
         test.configure();
         System.out.println("la configuration succée");
@@ -57,7 +59,7 @@ public class main {
         query.setDescription((CaseComponent) queryDesc);
 
         test.cycle(query,2);
-
+System.out.println("cycle marche");
 
 
             //	System.out.println("Cycle finished. Type exit to idem");

@@ -8,7 +8,7 @@ import com.demo.infection.jcolibri.cbrcore.CaseComponent;
 
 public class casesSolution implements CaseComponent {
 
-    //string id
+
     int id;
     int p;
     int u;

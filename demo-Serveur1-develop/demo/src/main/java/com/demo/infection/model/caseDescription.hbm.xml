@@ -26,7 +26,6 @@
 	<property name="dsp" column="dsp"/>
 	<property name="fr" column="fr"/>
 	<property name="lu" column="lu"/>
-
 	<property name="gb" column="gb"/>
 	<property name="crp" column="crp"/>
 	<property name="pct" column="pct"/>
