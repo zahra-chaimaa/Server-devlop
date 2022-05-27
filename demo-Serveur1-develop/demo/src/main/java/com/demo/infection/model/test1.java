@@ -12,7 +12,7 @@ import com.demo.infection.jcolibri.method.retrieve.NNretrieval.NNConfig;
 import com.demo.infection.jcolibri.method.retrieve.NNretrieval.NNScoringMethod;
 import com.demo.infection.jcolibri.method.retrieve.NNretrieval.similarity.LocalSimilarityFunction;
 import com.demo.infection.jcolibri.method.retrieve.NNretrieval.similarity.global.Average;
-import com.demo.infection.jcolibri.method.retrieve.NNretrieval.similarity.local.Equal;
+
 import com.demo.infection.jcolibri.method.retrieve.NNretrieval.similarity.local.similaritry.Euclidienne;
 import com.demo.infection.jcolibri.method.retrieve.RetrievalResult;
 import com.demo.infection.jcolibri.method.retrieve.selection.SelectCases;
@@ -76,76 +76,76 @@ import java.util.Collection;
            //fonction de similarite globale knn
            NNConfig config = new NNConfig();
            Attribute attribute;
-           //SimilConfigPanel similConfig;
+
            LocalSimilarityFunction function;
-           //similConfig = sympthome apres 48h;
+
            attribute = new Attribute("sa", CaseDescription.class);
-           config.addMapping(attribute, new Equal());
+           config.addMapping(attribute, new Euclidienne());
            //fonction de similarite local
            attribute = new Attribute("t", CaseDescription.class);
            config.addMapping(attribute, (LocalSimilarityFunction) new Euclidienne());
 
            attribute = new Attribute("ht", CaseDescription.class);
-           config.addMapping(attribute, new Equal());
+          config.addMapping(attribute,(LocalSimilarityFunction) new Euclidienne());
 
            attribute = new Attribute("aus", CaseDescription.class);
-           config.addMapping(attribute, new Equal());
+           config.addMapping(attribute, (LocalSimilarityFunction) new Euclidienne());
            config.setWeight(attribute,0.1);
            //JOptionPane.showConfirmDialog(null, "DEBUT14");
            attribute = new Attribute("des", CaseDescription.class);
-           config.addMapping(attribute, new Equal());
+           config.addMapping(attribute, (LocalSimilarityFunction) new Euclidienne());
            //config.setWeight(attribute,0.1);
            //JOptionPane.showConfirmDialog(null, "DEBUT9");
            attribute = new Attribute("kt", CaseDescription.class);
-           config.addMapping(attribute, new Equal());
+           config.addMapping(attribute, (LocalSimilarityFunction) new Euclidienne());
            config.setWeight(attribute, 0.1);
            //JOptionPane.showConfirmDialog(null, "DEBUT22");
            attribute = new Attribute("abl", CaseDescription.class);
-           config.addMapping(attribute, new Equal());
+           config.addMapping(attribute,  (LocalSimilarityFunction) new Euclidienne());
            config.setWeight(attribute, 0.1);
            //JOptionPane.showConfirmDialog(null, "DEBUT23");
            attribute = new Attribute("infkt", CaseDescription.class);
-           config.addMapping(attribute, new Equal());
-           //config. setWeight(attribute,0.1);
+           config.addMapping(attribute,  (LocalSimilarityFunction) new Euclidienne());
+           config. setWeight(attribute,0.1);
            attribute = new Attribute("sec", CaseDescription.class);
-           config.addMapping(attribute, new Equal());
-           //config.setWeight(attribute,0.1);
+           config.addMapping(attribute,  (LocalSimilarityFunction) new Euclidienne());
+           config.setWeight(attribute,0.1);
            //JOptionPane.showConfirmDialog(null, "DEBUT10");
            attribute = new Attribute("msec", CaseDescription.class);
-           config.addMapping(attribute, new Equal());
+           config.addMapping(attribute, (LocalSimilarityFunction) new Euclidienne());
            //config.setWeight(attribute,0.1);
            //JOptionPane.showConfirmDialog(null, "DEBUT11");
            attribute = new Attribute("tou", CaseDescription.class);
-           config.addMapping(attribute, new Equal());
-           //config.setWeight(attribute,0.1);
+           config.addMapping(attribute,  (LocalSimilarityFunction) new Euclidienne());
+           config.setWeight(attribute,0.1);
            //JOptionPane.showConfirmDialog(null, "DEBUT12");
            attribute = new Attribute("dys", CaseDescription.class);
-           config.addMapping(attribute, new Equal());
-           //config.setWeight(attribute,0.1);
+           config.addMapping(attribute,  (LocalSimilarityFunction) new Euclidienne());
+           config.setWeight(attribute,0.1);
            //JOptionPane.showConfirmDialog(null, "DEBUT13");
            //JOptionPane.showConfirmDialog(null, "DEBUT15");
            attribute = new Attribute("su", CaseDescription.class);
-           config.addMapping(attribute, new Equal());
-           //config.setWeight(attribute,0.1);
+           config.addMapping(attribute,  (LocalSimilarityFunction) new Euclidienne());
+           config.setWeight(attribute,0.1);
            //JOptionPane.showConfirmDialog(null, "DEBUT16");
            attribute = new Attribute("pyu", CaseDescription.class);
-           config.addMapping(attribute, new Equal());
-           //config.setWeight(attribute,0.1);
+           config.addMapping(attribute,  (LocalSimilarityFunction) new Euclidienne());
+           config.setWeight(attribute,0.1);
            //JOptionPane.showConfirmDialog(null, "DEBUT17");
            attribute = new Attribute("brm", CaseDescription.class);
-           config.addMapping(attribute, new Equal());
-           //config.setWeight(attribute,0.1);
+           config.addMapping(attribute, (LocalSimilarityFunction) new Euclidienne());
+           config.setWeight(attribute,0.1);
            //JOptionPane.showConfirmDialog(null, "DEBUT18");
            attribute = new Attribute("dsp", CaseDescription.class);
-           config.addMapping(attribute, new Equal());
-           //config.setWeight(attribute,0.1);
+           config.addMapping(attribute,  (LocalSimilarityFunction) new Euclidienne());
+           config.setWeight(attribute,0.1);
            //JOptionPane.showConfirmDialog(null, "DEBUT19");
            attribute = new Attribute("lu", CaseDescription.class);
-           config.addMapping(attribute, new Equal());
-           //config.setWeight(attribute,0.1);
+           config.addMapping(attribute, (LocalSimilarityFunction) new Euclidienne());
+           config.setWeight(attribute,0.1);
            //JOptionPane.showConfirmDialog(null, "DEBUT20");
            attribute = new Attribute("fr", CaseDescription.class);
-           config.addMapping(attribute, new Equal());
+           config.addMapping(attribute,  (LocalSimilarityFunction) new Euclidienne());
            //config.setWeight(attribute,0.1);
            //JOptionPane.showConfirmDialog(null, "DEBUT21");
            attribute = new Attribute("gb", CaseDescription.class);
@@ -164,7 +164,7 @@ import java.util.Collection;
            config.setWeight(attribute, 1.0);
            //JOptionPane.showConfirmDialog(null, "DEBUT8");
            attribute = new Attribute("rx", CaseDescription.class);
-           config.addMapping(attribute, new Equal());
+           config.addMapping(attribute, (LocalSimilarityFunction) new Euclidienne());
            config.setWeight(attribute, 0.1);
 
            config.setDescriptionSimFunction(new Average());
@@ -173,6 +173,10 @@ import java.util.Collection;
            System.out.println(eval);
            evaltogather = eval;
            Collection<CBRCase> selectedcases = SelectCases.selectTopK(evaltogather,k);
+           System.out.println("retrieve cases");
+           for(RetrievalResult nse: eval)
+               System.out.println(nse);
+
 
 
        }

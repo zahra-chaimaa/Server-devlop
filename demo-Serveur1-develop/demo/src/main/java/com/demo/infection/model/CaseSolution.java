@@ -6,9 +6,10 @@ package com.demo.infection.model;
 import com.demo.infection.jcolibri.cbrcore.Attribute;
 import com.demo.infection.jcolibri.cbrcore.CaseComponent;
 
-public class casesSolution implements CaseComponent {
 
+public class CaseSolution implements CaseComponent {
 
+    //string id
     int id;
     int p;
     int u;
@@ -21,7 +22,7 @@ public class casesSolution implements CaseComponent {
 
     public String toString()
     {
-        return "("+id+";"+nip+";"+p+";"+u+";"+b+";"+skt+";"+autr+";"+pas+";"+conf+")";
+        return "("+id+";"+p+";"+u+";"+b+";"+skt+";"+autr+";"+pas+";"+conf+")";
     }
 
 
@@ -131,7 +132,7 @@ public class casesSolution implements CaseComponent {
 
 
     public static void main(String[] args) {
-        casesSolution f = new casesSolution() ;
+        CaseSolution f = new CaseSolution() ;
     }
 
 

@@ -151,7 +151,8 @@ public class DataBaseConnector implements Connector {
 
 				solList = new HashMap<Object, CaseComponent>();
 				List l = session.createQuery("from " + solutionClassName).list();
-				
+				System.out.println("=====================================>" + l.size());
+				System.out.println(solutionClassName);
 				transaction.commit();
 				session.close();
 				

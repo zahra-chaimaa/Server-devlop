@@ -13,8 +13,8 @@ public class main {
     public static void main(String[] args) throws ExecutionException {
         System.out.println("This is the main function is package com.demo.second");
         System.out.println("######################");
-       URL file = FileIO.findFile("C:/demo-Serveur1-Devlop/demo-Serveur1-develop/demo/src/main/java/com/demo/infection/model/databaseconfig.xml");
-        System.out.println("**"+ file);
+      // URL file = FileIO.findFile("C:/demo-Serveur1-Devlop/demo-Serveur1-develop/demo/src/main/java/com/demo/infection/model/databaseconfig.xml");
+      //  System.out.println("**"+ file);
 
 
 
@@ -25,30 +25,30 @@ public class main {
           CaseDescription queryDesc=new CaseDescription();
             // queryDesc.setAccommodation(TravelDescription.AccommodationTypes.ThreeStars);
         queryDesc.setId(101);
-        queryDesc.setNip("true");
+        queryDesc.setNip("1234");
         queryDesc.setJ("21/03/2022");
-        queryDesc.setSa("true");
+        queryDesc.setSa(1);
         queryDesc.setT(39.7);
-        queryDesc.setHt("false");
-        queryDesc.setAus("true");
-        queryDesc.setDes("true");
-        queryDesc.setKt("false");
-        queryDesc.setAbl("true");
-        queryDesc.setInfkt("true");
-        queryDesc.setSec("true");
-        queryDesc.setMsec("true");
-        queryDesc.setTou("true");
-        queryDesc.setDys("true");
-        queryDesc.setSu("false");
-        queryDesc.setPyu("false");
-        queryDesc.setBrm("false");
-        queryDesc.setDsp("true");
-        queryDesc.setFr("false");
-        queryDesc.setLu("false");
+        queryDesc.setHt(0);
+        queryDesc.setAus(1);
+        queryDesc.setDes(1);
+        queryDesc.setKt(0);
+        queryDesc.setAbl(0);
+        queryDesc.setInfkt(1);
+        queryDesc.setSec(1);
+        queryDesc.setMsec(1);
+        queryDesc.setTou(1);
+        queryDesc.setDys(1);
+        queryDesc.setSu(0);
+        queryDesc.setPyu(0);
+        queryDesc.setBrm(0);
+        queryDesc.setDsp(1);
+        queryDesc.setFr(0);
+        queryDesc.setLu(0);
         queryDesc.setGb(23);
         queryDesc.setCrp(138);
         queryDesc.setPct(54);
-        queryDesc.setRx("true");
+        queryDesc.setRx(1);
 
         test1 test = new test1();
         test.configure();
@@ -58,7 +58,7 @@ public class main {
         CBRQuery query = new CBRQuery();
         query.setDescription((CaseComponent) queryDesc);
 
-        test.cycle(query,2);
+        test.cycle(query,1);
 System.out.println("cycle marche");
 
 

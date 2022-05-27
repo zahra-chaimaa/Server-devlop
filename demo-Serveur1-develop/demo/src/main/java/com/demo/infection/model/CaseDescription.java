@@ -9,13 +9,14 @@ public class CaseDescription implements CaseComponent {
 
     int id;
     String nip;
-    String j, sa;
+    String j;
+    int sa;
     double t;
-    String ht;
+    int ht;
     double gb, crp, pct;
-    String rx, sec, msec, tou, dys;
-    String aus, des, su, pyu, brm, dsp, lu;
-    String fr, kt, abl, infkt;
+    int rx, sec, msec, tou, dys;
+    int aus, des, su, pyu, brm, dsp, lu;
+    int fr, kt, abl, infkt;
 
     public String toString() {
         return "(" + id + ";" + nip + ";" + j + ";" + sa + ";" + t + ";" + ht + ";" + aus + ";" + des + ";" + kt + ";" + abl + ";" + infkt + ";" + sec + ";" + msec + ";" + tou + ";" + dys + ";" + su + ";" + pyu + ";" + brm + ";" + dsp + ";" + fr + ";" + lu + ";" + gb + ";" + crp + ";" + pct + ";" + rx + ")";
@@ -55,10 +56,10 @@ public class CaseDescription implements CaseComponent {
 
 
 
-    public String getSa() {
+    public int getSa() {
         return sa;
     }
-    public void setSa(String sa) {
+    public void setSa(int sa) {
         this.sa = sa;
     }
 
@@ -75,10 +76,10 @@ public class CaseDescription implements CaseComponent {
 
 
 
-    public String getHt() {
+    public int getHt() {
         return ht;
     }
-    public void setHt(String ht) {
+    public void setHt(int ht) {
         this.ht = ht;
     }
 
@@ -115,152 +116,152 @@ public class CaseDescription implements CaseComponent {
 
 
 
-    public String getRx() {
+    public int getRx() {
         return rx;
     }
-    public void setRx(String rx) {
+    public void setRx(int rx) {
         this.rx = rx;
     }
 
 
 
-    public String getSec() {
+    public int getSec() {
         return sec;
     }
-    public void setSec(String sec) {
+    public void setSec(int sec) {
         this.sec = sec;
     }
 
 
 
 
-    public String getMsec() {
+    public int getMsec() {
         return msec;
     }
-    public void setMsec(String msec) {
+    public void setMsec(int msec) {
         this.msec = msec;
     }
 
 
 
 
-    public String getTou() {
+    public int getTou() {
         return tou;
     }
-    public void setTou(String tou) {
+    public void setTou(int tou) {
         this.tou = tou;
     }
 
 
 
 
-    public String getDys() {
+    public int getDys() {
         return dys;
     }
-    public void setDys(String dys) {
+    public void setDys(int dys) {
         this.dys = dys;
     }
 
 
 
-    public String getAus() {
+    public int getAus() {
         return aus;
     }
-    public void setAus(String aus) {
+    public void setAus(int aus) {
         this.aus = aus;
     }
 
 
 
-    public String getDes() {
+    public int getDes() {
         return des;
     }
-    public void setDes(String des) {
+    public void setDes(int des) {
         this.des = des;
     }
 
 
 
-    public String getSu() {
+    public int getSu() {
         return su;
     }
-    public void setSu(String su) {
+    public void setSu(int su) {
         this.su = su;
     }
 
 
 
-    public String getPyu() {
+    public int getPyu() {
         return pyu;
     }
-    public void setPyu(String pyu) {
+    public void setPyu(int pyu) {
         this.pyu = pyu;
     }
 
 
 
-    public String getBrm() {
+    public int  getBrm() {
         return brm;
     }
-    public void setBrm(String brm) {
+    public void setBrm(int brm) {
         this.brm = brm;
     }
 
 
 
-    public String getDsp() {
+    public int getDsp() {
         return dsp;
     }
-    public void setDsp(String dsp) {
+    public void setDsp(int dsp) {
         this.dsp = dsp;
     }
 
 
 
 
-    public String getLu() {
+    public int getLu() {
         return lu;
     }
-    public void setLu(String lu) {
+    public void setLu(int lu) {
         this.lu = lu;
     }
 
 
 
 
-    public String getFr() {
+    public int getFr() {
         return fr;
     }
-    public void setFr(String fr) {
+    public void setFr(int fr) {
         this.fr = fr;
     }
 
 
 
 
-    public String getKt() {
+    public int getKt() {
         return kt;
     }
-    public void setKt(String kt) {
+    public void setKt(int kt) {
         this.kt = kt;
     }
 
 
 
-    public String getAbl() {
+    public int getAbl() {
         return abl;
     }
-    public void setAbl(String abl) {
+    public void setAbl(int abl) {
         this.abl = abl;
     }
 
 
 
 
-    public String getInfkt() {
+    public int getInfkt() {
         return infkt;
     }
-    public void setInfkt(String infkt) {
+    public void setInfkt(int infkt) {
         this.infkt = infkt;
     }
 
